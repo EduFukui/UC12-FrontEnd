@@ -1,0 +1,22 @@
+h1 {
+    background-color: brown;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: rgb(52, 3, 159);
+    text-align: justify;
+}
+
+#oi , #oi1 {
+    color: brown;
+    font-size: 30px;
+}
+
+.azul {
+    color: blue;
+}
+
+body {
+    background-color: black;
+}

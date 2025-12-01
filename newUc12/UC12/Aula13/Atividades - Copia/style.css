@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER SUPERIOR (LOGO + MENU PRINCIPAL) */
+#header1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #171d25;
+    color: #fff;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 40px; /* distância entre o logo e os links */
+    z-index: 1000;
+    border-bottom: 1px solid #1b2838;
+}
+
+#header1 img {
+    width: 155px;
+    height: 55px;
+}
+
+#header1 nav {
+    display: flex;
+    align-items: center;
+    gap: 35px; /* espaço entre os links */
+}
+
+#header1 nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#header1 nav a:hover {
+    color: #66c0f4;
+    transition: 0.3s;
+
+}
+
+/* HEADER INFERIOR (BARRA AZUL ESCURA) */
+#header2 {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    padding: 10px 25px;
+    background: linear-gradient(to bottom, #1b2838 0%, #0f1923 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    z-index: 999;
+    border-bottom: 1px solid #2a475e;
+}
+
+#header2 button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#header2 button:hover {
+    background-color: rgba(102, 192, 244, 0.2);
+    color: #66c0f4;
+}
+
+/* FUNDO PRINCIPAL */
+main {
+    background: linear-gradient(to bottom, #0f1923 0%, #1b2838 40%, #2a475e 100%);
+    min-height: 100vh;
+    padding-top: 150px; /* espaço pros headers fixos */
+}

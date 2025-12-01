@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* Aling-content so funciona com wrap */
+}
+
+header {
+    background-color: blueviolet;
+    color: beige;
+}
+
+main {
+    background-color: brown;
+}
+
+footer {
+    background-color: coral;
+}

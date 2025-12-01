@@ -1,0 +1,37 @@
+#caixa1 {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 20px;
+    border: 15px solid blue;
+    margin: 15px;
+}
+#caixa2 {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    padding: 30px;
+    border: 25px solid blue;
+    margin: 25px;
+}
+#caixa3 {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    box-sizing: border-box;
+    border: solid blue;
+}
+
+body {
+    display: inline-block;
+}
+
+.card {
+    background-color: rgb(185, 26, 26);
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 51);
+    margin-left: 400px;
+}
